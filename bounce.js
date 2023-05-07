@@ -30,7 +30,7 @@ function animate() {
 	//clear the canvas (to have one circle at a time)
 	if(count<5){
 	    c.clearRect(0, 0, innerWidth, innerHeight);
-	    c.fillStyle = 'black';
+	    c.fillStyle = 'green';
 	    c.fillRect(0, 0, innerWidth, innerHeight);
 	}
 	
